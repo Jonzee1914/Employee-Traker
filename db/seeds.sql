@@ -1,7 +1,4 @@
 -- DEPARTMENTS ==============================
--- id - INT PRIMARY KEY
--- name - VARCHAR(30) to hold department name
-
 INSERT INTO department (id, name) VALUES (1, 'Engineering');
 INSERT INTO department (id, name) VALUES (2, 'Sales');
 INSERT INTO department (id, name) VALUES (3, 'Finance');
@@ -10,11 +7,6 @@ INSERT INTO department (id, name) VALUES (5, 'Operations');
 INSERT INTO department (id, name) VALUES (6, 'Human Rescources');
 
 -- ROLES ==============================
--- id - INT PRIMARY KEY
--- title - VARCHAR(30) to hold role title
--- salary - DECIMAL to hold role salary
--- department_id - INT to hold reference to department role belongs to employee:
-
 INSERT INTO role (title, salary, departmentID) VALUES ("Lead Engineer", 150000, 1);
 INSERT INTO role (title, salary, departmentID) VALUES ("Engineer", 125000, 1);
 
@@ -33,14 +25,6 @@ INSERT INTO role (title, salary, departmentID) VALUES ("Ops Specialist", 110000,
 
 INSERT INTO role (title, salary, departmentID) VALUES ("HR Manager", 165000, 6);
 INSERT INTO role (title, salary, departmentID) VALUES ("HR Coordinator", 120000, 6);
-
--- EMPLOYEES =========================================
--- id - INT PRIMARY KEY
--- first_name - VARCHAR(30) to hold employee first name
--- last_name - VARCHAR(30) to hold employee last name
--- role_id - INT to hold reference to role employee has
--- manager_id - INT to hold reference to another employee that manager of the current employee.
-                -- This field may be null if the employee has no manager.
 
 -- Seed Employees Info =================================================================================
 INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Tony', 'Stark',1, null );
