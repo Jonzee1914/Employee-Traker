@@ -1,0 +1,29 @@
+{
+  "name": "employee-traker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "employee-tracker.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node employee-tracker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonzee1914/Employee-Traker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonzee1914/Employee-Traker/issues"
+  },
+  "homepage": "https://github.com/Jonzee1914/Employee-Traker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  }
+}
