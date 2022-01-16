@@ -62,7 +62,7 @@ npm start
 
 ## Preview
 Click the gif to see a full video demo of functionality  return
-[![](https://github.com/Jonzee1914/Employee-Traker/blob/main/Employee-Tracker.gif?raw=true)](https://youtu.be/_U4pbWoI25k)
+[![](https://github.com/Jonzee1914/Employee-Traker/blob/main/Employee-Tracker.gif?raw=true)](https://youtu.be/_U4pbWoI25k) <br />
 -- https://youtu.be/_U4pbWoI25k --
 
 ## License
