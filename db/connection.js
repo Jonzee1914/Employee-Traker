@@ -6,7 +6,7 @@ const db_config = {
   host: 'localhost',
   user: 'root',
   password: '', //Enter your MySQL password here.
-  database: 'employeetracker_db',
+  database: 'employeeTrackerDB',
   port:3306
 };
 
