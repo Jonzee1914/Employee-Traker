@@ -11,7 +11,7 @@ CREATE TABLE employee (
     lastName varchar(30) not null,
     roleID int,
     managerID int,
-    -- foreign key (role_id) references role(role_id)
+    -- foreign key (roleID) references role(roleID)
     primary key(id)
 );
 
@@ -21,7 +21,7 @@ CREATE TABLE role (
     title varchar(30) not null,
     salary float not null,
     departmentID int,
-    -- foreign key (department_id) references department(department_id)
+    -- foreign key (departmentID) references department(departmentID)
     primary key(id)
 );
 

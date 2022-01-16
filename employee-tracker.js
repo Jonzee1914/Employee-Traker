@@ -1,6 +1,6 @@
 const cliSelection = require('./lib/cliSelection');
 
-// Starts App
+// Starts the App
 let init = () => {
       cliSelection();
     }; 
